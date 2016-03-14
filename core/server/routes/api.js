@@ -108,6 +108,9 @@ apiRoutes = function apiRoutes(middleware) {
     // ## Uploads
     router.post('/uploads', authenticatePrivate, middleware.busboy, api.http(api.uploads.add));
 
+    // ## Search
+    router.get('/search', authenticatePublic, api.http(api.search.query));
+
     // API Router middleware
     router.use(middleware.api.errorHandler);
 

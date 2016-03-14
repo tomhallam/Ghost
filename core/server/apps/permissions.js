@@ -51,7 +51,8 @@ AppPermissions.prototype.getPackageContents = function () {
 
 // Default permissions for an App.
 AppPermissions.DefaultPermissions = {
-    posts: ['browse', 'read']
+    posts: ['browse', 'read'],
+    search: ['query']
 };
 
 module.exports = AppPermissions;

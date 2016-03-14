@@ -22,6 +22,7 @@ var _              = require('lodash'),
     authentication = require('./authentication'),
     uploads        = require('./upload'),
     dataExport     = require('../data/export'),
+    search         = require('./search'),
 
     http,
     addHeaders,
@@ -239,7 +240,8 @@ module.exports = {
     users: users,
     slugs: slugs,
     authentication: authentication,
-    uploads: uploads
+    uploads: uploads,
+    search: search
 };
 
 /**

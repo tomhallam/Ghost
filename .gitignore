@@ -67,3 +67,6 @@ CHANGELOG.md
 
 # Coverage reports
 coverage.html
+
+# Search-Index indexes
+si/

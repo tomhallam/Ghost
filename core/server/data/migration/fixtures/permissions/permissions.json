@@ -139,6 +139,16 @@
                 "name": "Browse roles",
                 "action_type": "browse"
             }
+        ],
+        "search": [
+            {
+                "name": "Query site content",
+                "action_type": "query"
+            },
+            {
+                "name": "Rebuild content index",
+                "action_type": "rebuild"
+            }
         ]
     },
     "permissions_roles": {
@@ -152,7 +162,8 @@
             "tag": "all",
             "theme": "all",
             "user": "all",
-            "role": "all"
+            "role": "all",
+            "search": "all"
         },
         "Editor": {
             "post": "all",
